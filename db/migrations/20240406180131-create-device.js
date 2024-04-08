@@ -21,6 +21,10 @@ module.exports = {
         allowNull: false,
         type: Sequelize.TEXT
       },
+      alarmType: {
+        allowNull: false,
+        type: Sequelize.TEXT
+      },
       userId: {
         allowNull: false,
         type: Sequelize.INTEGER,

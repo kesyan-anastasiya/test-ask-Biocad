@@ -27,6 +27,10 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.STRING
     },
+    alarmType: {
+      allowNull: false,
+      type: DataTypes.TEXT
+    },
     userId: {
       allowNull: false,
       type: DataTypes.INTEGER,
@@ -37,8 +41,10 @@ module.exports = (sequelize, DataTypes) => {
       onDelete: 'cascade',
       onUpdate: 'cascade'
     },
-    sequelize,
-    modelName: 'Device',
-  });
+  },
+    {
+      sequelize: sequelize,
+      modelName: 'Device'
+    });
   return Device;
 };

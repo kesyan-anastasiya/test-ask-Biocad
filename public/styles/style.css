@@ -1,5 +1,25 @@
-.post-container {
-    display: flex;
-    max-width: 1100px;
-    flex-wrap: wrap;
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100vw;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.favoriteDeviceList {
+    padding: 24px;
+    background-color: #f5f5f5;
+}
+
+.device-card {
+    background: #ffffff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
