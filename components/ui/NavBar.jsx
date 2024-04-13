@@ -22,7 +22,7 @@ module.exports = function NavBar({ user }) {
                             </a>
                         }
                     </li>
-                    <li class="nav-item">
+                    <li className="nav-item">
                         <a className="nav-link" href="/analytics">
                             Аналитика
                         </a>
