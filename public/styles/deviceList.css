@@ -1,0 +1,79 @@
+div.devices-list-container h2 {
+    color: #00000099;
+}
+
+.favorite {
+    margin: 0px 10px;
+}
+
+.device-list-row {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.devices-list-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 925px;
+    margin: 0 auto;
+}
+
+.device-name-column,
+.device-status-column {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+}
+
+.device-img {
+    width: 50px;
+    /* Или ваше предпочтительное значение */
+    height: auto;
+    margin-right: 10px;
+}
+
+.status-select {
+    margin-right: 10px;
+}
+
+.device-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 925px;
+    min-height: 56px;
+    height: auto;
+    align-items: flex-start;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    /* Для горизонтального выравнивания элементов внутри содержимого */
+    gap: 1px;
+}
+
+.card-img {
+    width: 40px;
+    height: 40px;
+    /* Вы можете изменить размер в соответствии с желаемым */
+    object-fit: cover;
+}
+
+.form-select {
+    width: auto;
+    /* Позволяет select занять всю доступную ширину */
+}
